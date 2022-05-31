@@ -1,0 +1,28 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    width: 200px;
+    cursor: pointer;
+}
+
+.botoes button {
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#lampOn {
+    background-color: greenyellow;
+}
+#lampOff {
+    background-color: red;
+}
